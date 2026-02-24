@@ -59,13 +59,17 @@ Los principales tipos de eventos son:
 ## 1.3. Manejo de eventos
 El manejo de eventos es el proceso mediante el cual se define qué acción realizará el programa cuando ocurra un evento específico.
 ### ¿Cómo funciona en flet?
+
 **1.** El usuario realiza una acción.
+
 **2.** Se activa un evento.
+
 **3.** Se ejecuta una función.
+
 **4.** Se actualiza la interfaz con *page.update()* si es necesario.
 
 ## 1.4. Manejo de componentes gréficos de control
-también llamados controles o widgets, son los elementos visuales que permiten la interacción dentro de la interfaz.
+También llamados controles o widgets, son los elementos visuales que permiten la interacción dentro de la interfaz.
 
 **Controles más comunes**
 * Texto informativo.
