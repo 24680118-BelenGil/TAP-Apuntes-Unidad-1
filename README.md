@@ -107,7 +107,11 @@ También llamados controles o widgets, son los elementos visuales que permiten l
 * bgcolor
 * visible
 * disabled
-  
+
+## Ejemplo
+En el siguiente link se muestra un programa aplicando lo aprendido.
+
+https://github.com/24680118-BelenGil/TAP-U1.-Proyecto-Integrador.git
 # Bibliografía
 * Ricci, T. I. A., Cervantes, A. N., de León Razo, J. A., & Gálvez, J. A. S. (n.d.). Interfaz Gráfica de Usuario. Unidades de Apoyo para el Aprendizaje - CUAED - UNAM. Retrieved February 23, 2026, from https://repositorio-uapa.cuaed.unam.mx/repositorio/moodle/pluginfile.php/3058/mod_resource/content/1/UAPA-Interfaz-Grafica-Usuario/index.html
 
