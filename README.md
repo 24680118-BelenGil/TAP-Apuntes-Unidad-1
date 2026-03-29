@@ -112,9 +112,20 @@ También llamados controles o widgets, son los elementos visuales que permiten l
 En el siguiente link se muestra un programa aplicando lo aprendido.
 
 https://github.com/24680118-BelenGil/TAP-U1.-Proyecto-Integrador.git
-# Bibliografía
+## Bibliografía
 * Ricci, T. I. A., Cervantes, A. N., de León Razo, J. A., & Gálvez, J. A. S. (n.d.). Interfaz Gráfica de Usuario. Unidades de Apoyo para el Aprendizaje - CUAED - UNAM. Retrieved February 23, 2026, from https://repositorio-uapa.cuaed.unam.mx/repositorio/moodle/pluginfile.php/3058/mod_resource/content/1/UAPA-Interfaz-Grafica-Usuario/index.html
 
 * Flet. (n.d.). Introduction. Flet.dev. Retrieved February 23, 2026, from https://docs.flet.dev/
+
+# Unidad 2. Componentes y librerías
+En el desarrollo moderno de software, la eficiencia no reside en escribir todo el código desde cero, sino en la capacidad de modularizar y reutilizar. Esta unidad explora cómo Python y el framework Flet permiten organizar aplicaciones mediante componentes y librerías. Comprender estos conceptos es fundamental para transformar scripts lineales en sistemas escalables, donde la interfaz visual y la lógica de negocio coexisten de forma ordenada y profesional.
+## 2.1 Definición conceptual de componentes, paquetes/librerías
+## 2.2 Uso de librerías proporcionadas por el lenguaje.
+## 2.3 Creación de componenetes (visuales y no visuales) definidos por el usuario
+## 2.4 Creación y uso de paquetes/librerías definidas por el usuario.
+## Conclusión 
+La implementación de componentes y paquetes personalizados en Flet marca la diferencia entre un prototipo simple y una aplicación robusta. Al dominar la creación de controles propios y la estructuración de librerías, el desarrollador logra un código más limpio, fácil de mantener y altamente reutilizable. En definitiva, la modularidad en Python no es solo una técnica de organización, sino una estrategia esencial para optimizar el tiempo de desarrollo y la calidad del software.
+## Bibliografía
+
 
 
