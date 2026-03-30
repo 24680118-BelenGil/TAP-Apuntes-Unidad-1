@@ -119,13 +119,52 @@ https://github.com/24680118-BelenGil/TAP-U1.-Proyecto-Integrador.git
 
 # Unidad 2. Componentes y librerías
 En el desarrollo moderno de software, la eficiencia no reside en escribir todo el código desde cero, sino en la capacidad de modularizar y reutilizar. Esta unidad explora cómo Python y el framework Flet permiten organizar aplicaciones mediante componentes y librerías. Comprender estos conceptos es fundamental para transformar scripts lineales en sistemas escalables, donde la interfaz visual y la lógica de negocio coexisten de forma ordenada y profesional.
-## 2.1 Definición conceptual de componentes, paquetes/librerías
+
+## 2.1 Definición conceptual de componentes, paquetes/librerías.
+**Componente:** Unidad independiente que encapsula funcionalidad específica y que puede ser reutilizada en distintas partes de una aplicación. Los componentes permiten dividir un sistema en elementos más pequeños, facilitando su comprensión, mantenimiento y escalabilidad.
+
+En el caso de Python con Flet, los componentes corresponden a elementos de interfaz gráfica conocidos como controles, tales como botones, campos de texto, etiquetas y contenedores. Cada componente posee propiedades, métodos y eventos que determinan su comportamiento dentro de la aplicación.
+
+**Librería:** Conjunto de funciones, clases y módulos previamente desarrollados que ofrecen soluciones a problemas comunes. Las librerías evitan la creación de código desde cero, optimizando así el tiempo de desarrollo y reduciendo la probabilidad de errores.
+
+**Paquetes:** Representan una forma de organización del código, ya que agrupan múltiples módulos dentro de una estructura jerárquica. Esta facilita la gestión de proyectos grandes, promoviendo una mejor distribución de responsabilidades dentro del sistema.
+
 ## 2.2 Uso de librerías proporcionadas por el lenguaje.
-## 2.3 Creación de componenetes (visuales y no visuales) definidos por el usuario
+Python cuenta con una amplia colección de librerías estándar que proporcionan funcionalidades esenciales, como operaciones matemáticas, manejo de fechas, generación de números aleatorios, entre otras. Estas librerías pueden ser utilizadas mediante instrucciones de importación, lo que permite integrar fácilmente sus funciones en cualquier programa.
+
+Además de las librerías estándar, Python permite el uso de librerías externas, como Flet, que amplían significativamente las capacidades del lenguaje. Flet, en particular, permite desarrollar interfaces gráficas modernas sin necesidad de conocimientos avanzados en diseño visual, ya que proporciona componentes predefinidos que simplifican la construcción de aplicaciones.
+
+**Ventajas del uso de librerías**
+1. Reduce tiempo de desarrollo.
+2. Evita reinventar soluciones.
+3. Código más limpio.
+4. Mayor confiabilidad.
+
+## 2.3 Creación de componenetes (visuales y no visuales) definidos por el usuario.
+**Componentes visuales personalizados:** Permiten diseñar elementos de interfaz que combinan múltiples controles, como botones, textos y contenedores, en una sola unidad reutilizable. Esto favorece la consistencia visual y reduce la duplicación de código.
+
+**Componentes no visuales:** Clases o funciones que encapsulan la lógica del programa, como operaciones matemáticas, validaciones o procesamiento de datos. Estos componentes son fundamentales para separar la lógica de la interfaz, lo que mejora la organización del sistema.
+
+La creación de componentes definidos por el usuario fomenta la modularidad del software, permitiendo construir aplicaciones más claras, estructuradas y fáciles de mantener.
+
 ## 2.4 Creación y uso de paquetes/librerías definidas por el usuario.
+Python permite a los desarrolladores crear sus propias librerías y paquetes. Esto se logra organizando el código en módulos que pueden ser reutilizados en diferentes proyectos.
+
+La creación de paquetes implica estructurar el código en carpetas que contienen archivos relacionados, lo que facilita su distribución y mantenimiento. Asimismo, permite dividir el sistema en diferentes capas, como interfaz, lógica y acceso a datos.
+
+**Ventajas de crear librerías propias**
+1. Reutilización de código
+2. Organización clara
+3. Facilita trabajo en equipo
+4. Escalabilidad
+
+## Ejemplo
+En el siguiente link se muestra un programa aplicando lo aprendido.
+
+https://github.com/24680118-BelenGil/Proyecto-Catalogo.git
 ## Conclusión 
 La implementación de componentes y paquetes personalizados en Flet marca la diferencia entre un prototipo simple y una aplicación robusta. Al dominar la creación de controles propios y la estructuración de librerías, el desarrollador logra un código más limpio, fácil de mantener y altamente reutilizable. En definitiva, la modularidad en Python no es solo una técnica de organización, sino una estrategia esencial para optimizar el tiempo de desarrollo y la calidad del software.
 ## Bibliografía
-
+* Flet. (n.d.). Introduction. Flet.dev. Retrieved February 23, 2026, from https://docs.flet.dev/
 
 
