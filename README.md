@@ -124,8 +124,23 @@ En el desarrollo moderno de software, la eficiencia no reside en escribir todo e
 **Componente:** Unidad independiente que encapsula funcionalidad específica y que puede ser reutilizada en distintas partes de una aplicación. Los componentes permiten dividir un sistema en elementos más pequeños, facilitando su comprensión, mantenimiento y escalabilidad.
 
 En el caso de Python con Flet, los componentes corresponden a elementos de interfaz gráfica conocidos como controles, tales como botones, campos de texto, etiquetas y contenedores. Cada componente posee propiedades, métodos y eventos que determinan su comportamiento dentro de la aplicación.
+```Python
+header = ft.Text(
+    "🛒 BAZARE",
+    color=ft.Colors.PURPLE,
+    size=30,
+    weight="bold"
+)
+  ```
+📌 Este componente:
+* Muestra texto en pantalla
+* Tiene propiedades como color, tamaño y estilo
 
 **Librería:** Conjunto de funciones, clases y módulos previamente desarrollados que ofrecen soluciones a problemas comunes. Las librerías evitan la creación de código desde cero, optimizando así el tiempo de desarrollo y reduciendo la probabilidad de errores.
+```Python
+import flet as ft
+  ```
+📌 Se está utilizando la librería Flet, que permite crear toda la interfaz gráfica.
 
 **Paquetes:** Representan una forma de organización del código, ya que agrupan múltiples módulos dentro de una estructura jerárquica. Esta facilita la gestión de proyectos grandes, promoviendo una mejor distribución de responsabilidades dentro del sistema.
 
@@ -133,7 +148,16 @@ En el caso de Python con Flet, los componentes corresponden a elementos de inter
 Python cuenta con una amplia colección de librerías estándar que proporcionan funcionalidades esenciales, como operaciones matemáticas, manejo de fechas, generación de números aleatorios, entre otras. Estas librerías pueden ser utilizadas mediante instrucciones de importación, lo que permite integrar fácilmente sus funciones en cualquier programa.
 
 Además de las librerías estándar, Python permite el uso de librerías externas, como Flet, que amplían significativamente las capacidades del lenguaje. Flet, en particular, permite desarrollar interfaces gráficas modernas sin necesidad de conocimientos avanzados en diseño visual, ya que proporciona componentes predefinidos que simplifican la construcción de aplicaciones.
-
+```Python
+page.add(
+    header,
+    catalogo
+)
+  ```
+📌 Aquí Flet permite:
+* Agregar componentes a la pantalla
+* Construir la interfaz de forma dinámica
+  
 **Ventajas del uso de librerías**
 1. Reduce tiempo de desarrollo.
 2. Evita reinventar soluciones.
@@ -142,9 +166,31 @@ Además de las librerías estándar, Python permite el uso de librerías externa
 
 ## 2.3 Creación de componenetes (visuales y no visuales) definidos por el usuario.
 **Componentes visuales personalizados:** Permiten diseñar elementos de interfaz que combinan múltiples controles, como botones, textos y contenedores, en una sola unidad reutilizable. Esto favorece la consistencia visual y reduce la duplicación de código.
+```Python
+class ProductoCard(ft.Container):
 
+    def __init__(self, producto):
+
+        super().__init__()
+
+        self.width = 250
+        self.padding = 10
+        self.border_radius = 15
+        self.bgcolor = ft.Colors.WHITE
+  ```
+📌 Este componente:
+* Hereda de Container
+* Define su propio diseño
+* Es reutilizable
+  
 **Componentes no visuales:** Clases o funciones que encapsulan la lógica del programa, como operaciones matemáticas, validaciones o procesamiento de datos. Estos componentes son fundamentales para separar la lógica de la interfaz, lo que mejora la organización del sistema.
-
+```Python
+def main(page: ft.Page):
+  ```
+📌 También es no visual porque:
+* Controla la lógica de la app
+* Organiza los componentes
+  
 La creación de componentes definidos por el usuario fomenta la modularidad del software, permitiendo construir aplicaciones más claras, estructuradas y fáciles de mantener.
 
 ## 2.4 Creación y uso de paquetes/librerías definidas por el usuario.
@@ -157,7 +203,23 @@ La creación de paquetes implica estructurar el código en carpetas que contiene
 2. Organización clara
 3. Facilita trabajo en equipo
 4. Escalabilidad
+```Python
+productos = [
+{"id": 1, "nombre": "Totoro", "descripcion": "Peluche de 1 metro de altura, suave y esonjoso.", "precio": 1000, "ruta_imagen": "1.jpg"},
+{"id": 2, "nombre": "Gatitos", "descripcion": "Hermosos llaveros de gatitos", "precio": 100, "ruta_imagen": "2.webp"},
+{"id": 3, "nombre": "Libreta", "descripcion": "LIbreta en forma de lapiza, rayada.", "precio": 50, "ruta_imagen": "3.webp"},
+{"id": 4, "nombre": "Capibara", "descripcion":"Mochila de capibara con flor.", "precio": 200, "ruta_imagen": "4.jpg"},
+{"id": 5, "nombre": "Nimona", "descripcion": "Funko de Nimona.", "precio": 500, "ruta_imagen": "5.jpg"},
+{"id": 6, "nombre": "Sailor Moon", "descripcion": "Set de 6 mangas de Sailor Moon.", "precio": 2000, "ruta_imagen": "6.webp"},
+{"id": 7, "nombre": "Cry baby", "descripcion": "Perfume original, sellado.", "precio": 3000, "ruta_imagen": "7.webp"},
+{"id": 8, "nombre": "Van Gogh", "descripcion": "Set de notas adhesivas Noche estrellada.", "precio": 100, "ruta_imagen": "8.webp"},
+]
+  ```
+Aunque el código está en un solo archivo, ya se aplica el concepto de organización modular.}
 
+📌 Esto funciona como:
+* Base de datos simple
+* Fuente de información reutilizable
 ## Ejemplo
 En el siguiente link se muestra un programa aplicando lo aprendido.
 
